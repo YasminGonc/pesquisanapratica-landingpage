@@ -2,11 +2,13 @@
     --azul-principal: #0e2b3d;
     --laranja-principal: #F07B35;
     --laranja-hover: #E45E11;
+    --creme: #DADADA;
     --branco: #FFFFFF;
     --cinza: #A9A9A9;
+    --destaque: #2BE2C3;
 }
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter',sans-serif;
 }
 .card {
     height: 100vh;
@@ -52,6 +54,46 @@ body {
 }
 .btn:hover {
     background-color: var(--laranja-hover);
+}
+.sobre-curso {
+    height: auto;
+    background-color: var(--creme);
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+    gap: 3rem;
+    padding: 3rem;
+}
+.sobre-curso-titulo {
+    color: var(--laranja-principal);
+    grid-column: span 2;
+    justify-self: center;
+    width: max-content;
+    font-size: 2rem;
+}
+.sobre-curso-infos {
+    justify-self: center;
+    height: 100%;
+    width: 70%;
+    border: 0.4rem solid var(--laranja-principal);
+    margin: 0 2rem;
+    padding: 0 1rem;
+}
+.sobre-curso-infos-titulo {
+    text-transform: uppercase;
+    color: var(--laranja-principal);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.sobre-curso-infos-txt {
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+.proposta {
+    border: 0.4rem solid var(--azul-principal);
+}
+.sobre-curso-infos-titulo-proposta {
+    color: var(--azul-principal);
 }
 .card-img {
     align-self: center;
@@ -108,6 +150,52 @@ body {
 .card-aulas-info-compl-conteudo {
     font-size: 0.8rem;
 }
+.prof {
+    padding: 2rem 6rem;
+}
+.card-infos-titulo-prof {
+    color: var(--azul-principal);
+    margin-bottom: 2rem;
+}
+.prof-txt {
+    text-align: justify;
+}
+.inscricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--azul-principal);
+}
+.inscricao-titulo {
+    width: max-content;
+    color: var(--laranja-principal);
+}
+.inscricao-infos {
+    border: 0.2rem solid var(--laranja-principal);
+    padding: 1rem;
+}
+.inscricao-infos li {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--branco);
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+.gg-check-r {
+    color: var(--laranja-principal);
+}
+.investimento {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--destaque);
+}
+.investimento span {
+    font-weight: 400;
+    font-size: 1rem;
+}
 @media screen and (max-width: 768px) {
     .card {
         height: auto;
@@ -123,6 +211,17 @@ body {
     .card-infos-titulo {
         text-align: center;
     }
+    .sobre-curso {
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .card-aulas {
+        align-self: center;
+    }
+    .aulas {
+        gap: 2rem;
+    }
 }
 @media screen and (max-width: 425px) {
     .card-infos-img {
@@ -136,6 +235,9 @@ body {
         text-align: center;
     }
     .card-img {
+        width: 100%;
+    }
+    .sobre-curso-infos {
         width: 100%;
     }
 }
