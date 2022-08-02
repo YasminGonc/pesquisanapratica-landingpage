@@ -1,0 +1,10 @@
+.rodape {
+    background-color: var(--cinza);
+    text-align: center;
+    padding: 0.6em;
+    font-size: 0.8em;
+}
+
+.rodape a:visited {
+    color: black;
+}

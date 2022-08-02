@@ -2,8 +2,9 @@
 @import url(card-sobre-curso.css);
 @import url(card-aulas.css);
 @import url(prof.css);
+@import url(opinioes.css);
 @import url(inscricao.css);
-
+@import url(rodape.css);
 
 :root {
     --azul-principal: #0e2b3d;
