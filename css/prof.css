@@ -1,0 +1,18 @@
+.prof {
+    padding: 2rem 6rem;
+}
+
+.card-infos-titulo-prof {
+    color: var(--azul-principal);
+    margin-bottom: 2rem;
+}
+
+.prof-txt {
+    text-align: justify;
+}
+
+@media screen and (max-width: 540px) {
+    .prof {
+        padding: 2rem 4rem;
+    }
+}
