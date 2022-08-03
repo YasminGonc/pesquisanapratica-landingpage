@@ -45,6 +45,12 @@
     color: var(--azul-principal);
 }
 
+@media screen and (max-width: 912px) {
+    .sobre-curso {
+        row-gap: 2rem;
+        column-gap: 0;
+    }
+}
 @media screen and (max-width: 820px) {
     .sobre-curso {
         align-items: center;
