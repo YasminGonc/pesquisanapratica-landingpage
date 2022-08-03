@@ -1,4 +1,9 @@
 # Landingpage do curso Viver de Pesquisa do Pesquisa na Prática
+ <div>
+ <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" target="_blank">
+ <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" target="_blank">
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" target="_blank">
+ </div>
  Landingpage criada para lançamento do curso Viver de Pesquisa do <a href="https://www.instagram.com/pesquisanapratica/" target="_blank">Pesquisa na Prática</a> da prof.Fernanda Scussel, PhD.
  <h2> Overview </h2>
  <h3>Sobre a landingpage</h3>
