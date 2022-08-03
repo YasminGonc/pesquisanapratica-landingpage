@@ -38,16 +38,19 @@
     color: var(--azul-principal);
     font-size: 1.1em;
 }
+
 @media screen and (max-width: 820px) {
     .swiper {
         width: 70%;
     }
 }
+
 @media screen and (max-width: 540px) {
     .swiper {
         width: 95%;
     }
 }
+
 @media screen and (max-width: 425px) {
     .swiper {
         width: 100%;
