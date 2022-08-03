@@ -13,7 +13,7 @@
  <h3>Site</h3>
  <a href="https://yasmingonc.github.io/pesquisanapratica-landingpage/" target="_blank">Viver de Pesquisa</a>
  <h3>Vídeo da aplicação</h3>
- ![Vídeo sobre a aplicação](https://www.loom.com/share/768a71a32bf34d18940632af762990e8)
+ 
  <h2> Processo </h2>
  <h3>Construído com:</h3>
  <ul>
